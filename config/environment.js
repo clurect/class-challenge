@@ -3,7 +3,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'healthy-us',
+    modulePrefix: 'class-challenge',
     environment,
     rootURL: '/',
     locationType: 'auto',
