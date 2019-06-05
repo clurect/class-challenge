@@ -1,0 +1,7 @@
+{{#each teams as |team|}}
+<div>
+    <button name="-" {{action "reduceScore" team.score}}>-</button>
+    <span>{{team.name}} {{team.score}}</span>
+    <button name="+">+</button>
+</div>
+{{/each}}
